@@ -61,3 +61,6 @@ GIT_PROMPT_ONLY_IN_REPO=1
 GIT_PROMPT_THEME=Custom
 source ~/.bash-git-prompt/gitprompt.sh
 
+### Normal bash prompt ###
+export PS1="\[\e[33m\]\w\[\e[m\]\[\e[37m\]😎\[\e[m\] "
+
