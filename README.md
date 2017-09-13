@@ -10,6 +10,9 @@ git submodule init
 git submodule update
 ```
 
+update all submodules:
+`git submodule update --recursive --remote`
+
 Included things:
  - diff-so-fancy -> pretty git diff
  - .vimrc config

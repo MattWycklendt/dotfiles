@@ -55,6 +55,8 @@ export TERM=xterm-16color
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Devel
 source /usr/bin/virtualenvwrapper.sh
+# On Ubuntu it is:
+#source /usr/local/bin/virtualenvwrapper.sh
 
 ### git bash prompt ###
 GIT_PROMPT_ONLY_IN_REPO=1
