@@ -3,3 +3,5 @@
 	name = mattwycklendt
 [push]
 	default = current
+[core]
+	pager = .git-so-fancy | less --tabs=4 -RFX
