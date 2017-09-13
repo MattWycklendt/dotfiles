@@ -9,3 +9,11 @@ to checkout the subrepos that make up this repository:
 git submodule init
 git submodule update
 ```
+
+Included things:
+ - diff-so-fancy -> pretty git diff
+ - .vimrc config
+ - vim plugin as submodules of this repo
+ - .tmux.config
+ - .bashrc
+ - .bash_profile
