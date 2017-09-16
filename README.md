@@ -13,6 +13,8 @@ git submodule update
 update all submodules:
 `git submodule update --recursive --remote`
 
+to install YouCompleteMe for vim follow instructions on the github site
+
 Included things:
  - diff-so-fancy -> pretty git diff
  - .vimrc config
