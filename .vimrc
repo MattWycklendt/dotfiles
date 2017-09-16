@@ -3,6 +3,7 @@ syntax on
 "filetype plugin indent on
 set background=dark
 colorscheme solarized
+let g:airline_theme='solarized'
 
 set mouse=a
 
@@ -76,7 +77,10 @@ augroup BgHighlight
     autocmd WinLeave * set colorcolumn=0
 augroup END
 
-autocmd VimEnter * NERDTree
+" NERDTree
+map <silent> <C-n> :NERDTreeToggle<CR>
+
+" Setup on enter
 autocmd VimEnter * wincmd p
 autocmd VimEnter * set cul
 autocmd VimEnter * set colorcolumn=80
@@ -128,3 +132,6 @@ syntax on
 "au FileType javascript setl fen
 "
 hi Normal ctermbg=none
+
+" CtrlP commands
+set runtimepath^=~/.vim/bundle/ctrlp.vim
