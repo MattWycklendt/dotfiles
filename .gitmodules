@@ -19,3 +19,18 @@
 [submodule ".tmux/plugins/tpm"]
 	path = .tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm
+[submodule "/home/matt/.dotfiles/.vim/bundle/vim-airline"]
+	path = /home/matt/.dotfiles/.vim/bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "/home/matt/.dotfiles/.vim/bundle/vim-airline-themes"]
+	path = /home/matt/.dotfiles/.vim/bundle/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule ".vim/bundle/ctrlp.vim"]
+	path = .vim/bundle/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule ".vim/bundle/vim-gitgutter"]
+	path = .vim/bundle/vim-gitgutter
+	url = git://github.com/airblade/vim-gitgutter.git
+[submodule ".vim/bundle/YouCompleteMe"]
+	path = .vim/bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe
